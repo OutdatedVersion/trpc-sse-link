@@ -73,4 +73,4 @@ These then underly usage:
 
 ## For the visual people
 
-![Video](./docs/recording.mp4)
+https://github.com/OutdatedVersion/trpc-sse-link/assets/11138610/4d5da1e1-c769-4775-9083-6c2f2b5447b4
