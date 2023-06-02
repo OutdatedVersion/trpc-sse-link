@@ -2,6 +2,8 @@
 
 Supports sending tRPC's subscriptions over [SSE](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events).
 
+Note: This is a proof-of-concept and not intended to be used directly.
+
 ## Components
 
 - [`httpSseLink`](src/link.ts): Client-side [tRPC link](https://trpc.io/docs/links) bridging SSE HTTP connections to the tRPC API
