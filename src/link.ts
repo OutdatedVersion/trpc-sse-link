@@ -23,6 +23,7 @@ export const httpSseLink = <TRouter extends AnyRouter>(opts: {
     };
 
     es.onerror = (error) => {
+      console.log("error", error);
       handleError(error);
     };
 
@@ -35,6 +36,7 @@ export const httpSseLink = <TRouter extends AnyRouter>(opts: {
 
     return {
       close: () => {
+        console.log("close");
         es.close();
       },
     };
@@ -72,6 +74,7 @@ export const httpSseLink = <TRouter extends AnyRouter>(opts: {
         });
 
         return () => {
+          console.log("something something");
           source.close();
         };
       });
