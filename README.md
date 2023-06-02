@@ -70,3 +70,7 @@ These then underly usage:
 
 - Subscription continues if client closes the connection early
   - I thought this was covered by the server-side request/response event handlers but that seems to be a misunderstanding. Need to dig into it further.
+
+## For the visual people
+
+![Video](./docs/recording.mp4)
