@@ -12,7 +12,7 @@ Note: This is a proof-of-concept and not intended to be used directly.
 
 These then underly usage:
 
-- [Server subscription producer](example/src/server/router/watch.ts)
+- [Server subscription producer](example/src/server/router/numbers.ts)
 
   ```ts
   export const numbers = t.procedure
