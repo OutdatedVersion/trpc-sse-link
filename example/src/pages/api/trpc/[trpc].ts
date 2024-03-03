@@ -50,6 +50,8 @@ const handler = async (request: NextApiRequest, response: NextApiResponse) => {
         Connection: "keep-alive",
         "Cache-Control": "no-cache, no-transform",
         "Content-Type": "text/event-stream;charset=utf-8",
+        // !! Please change this to whatever makes sense for your application!
+        // I left it a wildcard as this is a toy/testing app
         "Access-Control-Allow-Origin": "*",
       });
       response.flushHeaders();
@@ -60,16 +62,11 @@ const handler = async (request: NextApiRequest, response: NextApiResponse) => {
           console.log(
             "server subscription next",
             value,
-            "closed",
-            response.closed,
-            "destroyed",
-            response.destroyed,
-            "writable",
-            response.writable,
             {
               closed: request.closed,
               complete: request.complete,
               destroyed: request.destroyed,
+              writable: response.writable,
               aborted: request.aborted,
             }
           );
