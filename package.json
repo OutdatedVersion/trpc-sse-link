@@ -10,8 +10,8 @@
     "@trpc/server": "^10"
   },
   "devDependencies": {
-    "@trpc/client": "^10.29.0",
-    "@trpc/server": "^10.29.0",
+    "@trpc/client": "^10.45.1",
+    "@trpc/server": "^10.45.1",
     "tsup": "^6.7.0",
     "typescript": "^5.1.3"
   }

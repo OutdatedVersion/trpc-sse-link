@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^4.29.12",
-    "@trpc/client": "^10.29.0",
-    "@trpc/next": "^10.29.0",
-    "@trpc/server": "^10.29.0",
+    "@trpc/client": "^10.45.1",
+    "@trpc/next": "^10.45.1",
+    "@trpc/react-query": "^10.45.1",
+    "@trpc/server": "^10.45.1",
     "@types/node": "20.2.5",
     "@types/react": "18.2.8",
     "@types/react-dom": "18.2.4",
