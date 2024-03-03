@@ -69,7 +69,7 @@ These then underly usage:
 ## Issues
 
 - Subscription continues if client closes the connection early
-  - I thought this was covered by the server-side request/response event handlers but that seems to be a misunderstanding. Need to dig into it further.
+  - I thought this was covered by the server-side request/response event handlers but that seems to be a misunderstanding. See [#2](https://github.com/OutdatedVersion/trpc-sse-link/issues/2).
 
 ## For the visual people
 
